@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 2px black solid;
+}
+
+html,
+body {
+  height: 100%;
+  // vertical-align: baseline;
+}
+
+div {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 16px;
+  margin-top: 10px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h2 {
+    font-family: Didot, sans-serif !important;
+    font-size: 30px;
+    line-height: 1.25em;
+    font-weight: 600;
+    padding-bottom: 500px;
+  }
+}
+
+.mountain {
+  width: 100%;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@font-face {
+  font-family: Sigmar;
+  src: url("../fonts/SigmarOne-Regular.ttf");
+}
+@font-face {
+  font-family: Segoe UI;
+  src: url("../fonts/Segoe\ UI.ttf");
+}
+@font-face {
+  font-family: SegoeBold;
+  src: url("../fonts/Segoe\ UI\ Bold.ttf");
+}
+@font-face {
+  font-family: SigmarBItalic;
+  src: url("../fonts/Segoe\ UI\ Bold\ Italic.ttf");
+}

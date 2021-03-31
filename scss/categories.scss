@@ -1,0 +1,11 @@
+.categories {
+  width: 80%;
+  margin-left: 20px;
+  .resources {
+    display: flex;
+    justify-content: space-between;
+    span {
+      font-weight: bold;
+    }
+  }
+}

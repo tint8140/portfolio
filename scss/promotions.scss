@@ -1,0 +1,150 @@
+.promotions {
+  width: 100%;
+  .header {
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    h1 {
+      font-family: Segoe UI;
+      font-size: 45px;
+    }
+    p {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 35px;
+    }
+  }
+  .subbanner {
+    display: flex;
+    // background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 50px;
+
+    div {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      h1 {
+        display: flex;
+        font-size: 30px;
+        right: 0px;
+        bottom: 0px;
+        text-transform: uppercase;
+      }
+    }
+    .image1 {
+      background-image: url("../images/jennie.jpg");
+      height: 300px;
+      width: 250px;
+    }
+    .image2 {
+      background-image: url("../images/lisa.jpg");
+      height: 300px;
+      width: 250px;
+    }
+    .image3 {
+      background-image: url("../images/kimtae.jpg");
+      height: 300px;
+      width: 250px;
+    }
+    .image4 {
+      background-image: url("../images/coat.jpg");
+      height: 300px;
+      width: 250px;
+    }
+  }
+  .paragraph {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px auto;
+
+    div {
+      width: 250px;
+      // height: 200px;
+
+      // width: 100%;
+      h1 {
+        font-size: 25px;
+        width: 100%;
+      }
+      p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 21px;
+        width: 100%;
+      }
+      font-size: 20px;
+      // right: 0px;
+      // bottom: 0px;
+    }
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 50px;
+
+    div {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      h1 {
+        display: flex;
+        font-size: 30px;
+        right: 0px;
+        bottom: 0px;
+        text-transform: uppercase;
+      }
+    }
+    .image1 {
+      background-image: url("../images/chanelbag.jpg");
+      height: 219px;
+      width: 219px;
+    }
+    .image2 {
+      background-image: url("../images/silky.jpg");
+      height: 219px;
+      width: 219px;
+    }
+    .image3 {
+      background-image: url("../images/necklace.jpg");
+      height: 219px;
+      width: 219px;
+    }
+    .image4 {
+      background-image: url("../images/v.jpg");
+      height: 219px;
+      width: 219px;
+    }
+    .image5 {
+      background-image: url("../images/bag.jpg");
+      height: 219px;
+      width: 219px;
+    }
+  }
+  .paragraph2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px auto;
+
+    div {
+      width: 219px;
+      // height: 200px;
+
+      // width: 100%;
+      h1 {
+        font-size: 20px;
+        width: 100%;
+      }
+      p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+        width: 100%;
+      }
+    }
+  }
+}

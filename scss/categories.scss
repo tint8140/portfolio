@@ -1,11 +1,26 @@
 .categories {
-  width: 80%;
-  margin-left: 20px;
+  font-family: SegoeUI;
+  width: 100%;
+  margin-bottom: 50px;
+  .header {
+    width: 80%;
+    margin-left: 50px;
+  }
   .resources {
-    display: flex;
-    justify-content: space-between;
-    span {
-      font-weight: bold;
+    padding-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    div {
+      padding-left: 50px;
+      span {
+        width: 100%;
+
+        font-weight: bold;
+      }
     }
+
+    // padding-right: 60px;
+    display: flex;
+    // justify-content: space-between;
   }
 }

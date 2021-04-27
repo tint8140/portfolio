@@ -1,11 +1,12 @@
 .promotions {
   width: 100%;
+  margin-bottom: 150px;
   .header {
     margin-top: 50px;
     text-align: center;
     align-items: center;
     h1 {
-      font-family: Segoe UI;
+      font-family: SegoeUI;
       font-size: 45px;
     }
     p {
@@ -19,6 +20,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0px 50px;
+    padding-bottom: 150px;
 
     div {
       background-position: center;
@@ -52,31 +54,34 @@
       height: 300px;
       width: 250px;
     }
-  }
-  .paragraph {
-    display: flex;
-    // flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px auto;
-
-    div {
+    .image1:hover {
+      transform: scale(1.2);
+    }
+    .image2:hover {
+      transform: scale(1.2);
+    }
+    .image3:hover {
+      transform: scale(1.2);
+    }
+    .image4:hover {
+      transform: scale(1.2);
+    }
+    .paragraph {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 300px auto;
       width: 250px;
-      // height: 200px;
-
-      // width: 100%;
-      h1 {
-        font-size: 25px;
-        width: 100%;
-      }
       p {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 21px;
+        span {
+          font-size: 25px;
+          width: 100%;
+          font-weight: bold;
+        }
+        // display: ;
+        font-size: 20px;
         width: 100%;
       }
-      font-size: 20px;
-      // right: 0px;
-      // bottom: 0px;
     }
   }
 
@@ -123,25 +128,36 @@
       height: 219px;
       width: 219px;
     }
-  }
-  .paragraph2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px auto;
-
-    div {
+    .image1:hover {
+      transform: scale(1.2);
+    }
+    .image2:hover {
+      transform: scale(1.2);
+    }
+    .image3:hover {
+      transform: scale(1.2);
+    }
+    .image4:hover {
+      transform: scale(1.2);
+    }
+    .image5:hover {
+      transform: scale(1.2);
+    }
+    .paragraph2 {
+      bottom: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 220px auto;
       width: 219px;
-      // height: 200px;
 
-      // width: 100%;
-      h1 {
-        font-size: 20px;
-        width: 100%;
-      }
       p {
-        display: flex;
-        flex-wrap: wrap;
+        span {
+          font-weight: bold;
+          font-size: 20px;
+        }
+        // display: flex;
+        // flex-wrap: wrap;
         font-size: 15px;
         width: 100%;
       }
